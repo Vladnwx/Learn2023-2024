@@ -5,8 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
-      <change afterPath="$PROJECT_DIR$/src/timus/SQRT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Example9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/ЛАБОРАТОРНАЯ РАБОТА №1 2022-2023.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР1.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr1/Слайд 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/~$РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР0.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/бутерброд/Бутерброд 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scratch/танчики/Танчики 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2023_16_03_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2023_16_03__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scratch/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР0.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scratch/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР0.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +81,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,14 +114,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ABProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="timus.ABProblem" />
@@ -109,6 +180,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="timus" />
     <option name="LAST_COMMIT_MESSAGE" value="timus" />
   </component>

@@ -3,5 +3,15 @@ package lr1;
 public class Example12 {
     public static void main(String[] args) {
 
+Scanner in = new Scanner(System.in);
+
+System.out.println("Введите Ваш возраст: ");
+
+int age = in.nextInt();
+
+System.out.println("Ваш год рождения: " + (age);
+
+in.close;
+
     }
 }

@@ -41,23 +41,35 @@ String s =" ";
 
 switch (a) {
 
-1..4 -> s = few;
+case (1..4): s = few;
+break;
 
-5..9 -> s= several;
+case(5..9) : s= several;
+break;
 
-10..19 -> s = pack;
+case(10..19) : s = pack;
+break;
 
-20..49 -> s= lots;
+case(20..49) : s= lots;
+break;
 
-50..99 -> s = horde;
+case(50..99) : s = horde;
+break;
 
-100..249 -> s = throng;
+case(100..249) : s = throng;
+break;
 
-250..499 -> s = swarm;
+case(250..499) : s = swarm;
+break;
 
-500..999 -> s = zounds;
+case (500..999) : s = zounds;
+break;
 
-1000..2000 -> s = legion;
+case(1000..2000) : s = legion;
+break;
+
+default : 
+s=0;
 
 };
 

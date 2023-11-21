@@ -19,6 +19,16 @@ import java.util.Scanner;
 public class task_1293 {
     public static void main(String[] args){
 
+int a, b, n;
+
+Scanner in = new Scanner(System.in);
+
+n = in.nextInt();
+a = in.nextInt();
+b = in.nextInt();
+
+System.out.println(n*2*a*b);
+in.close();
 
 
       }

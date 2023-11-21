@@ -70,6 +70,7 @@ break;
 
 default : 
 s=0;
+break;
 
 }
 

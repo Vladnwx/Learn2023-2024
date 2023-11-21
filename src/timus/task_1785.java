@@ -35,6 +35,34 @@ public class task_1785 {
 
 Scanner in = new Scanner(System.in);
 
+int a = in.nextInt();
 
+String s =" ";
+
+switch (a) {
+
+1..4 -> s = few;
+
+5..9 -> s= several;
+
+10..19 -> s = pack;
+
+20..49 -> s= lots;
+
+50..99 -> s = horde;
+
+100..249 -> s = throng;
+
+250..499 -> s = swarm;
+
+500..999 -> s = zounds;
+
+1000..2000 -> s = legion;
+
+};
+
+System.out.println(s);
+
+in.close();
       }
     }

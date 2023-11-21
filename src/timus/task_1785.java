@@ -71,7 +71,7 @@ break;
 default : 
 s=0;
 
-};
+}
 
 System.out.println(s);
 

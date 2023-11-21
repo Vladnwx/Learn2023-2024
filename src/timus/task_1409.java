@@ -23,7 +23,14 @@ public class task_1409 {
 
 Scanner in = new Scanner(System.in);
 
-System.out.println("Hello world");
+int garry;
+int larry;
+
+garry = in.nextInt();
+larry = in.nextInt();
+
+
+System.out.println((larry-1) + " " + (garry-1));
 in.close();
 
 

@@ -41,7 +41,7 @@ int a = in.nextInt();
 
 String s =" ";
 
-switch (a) {
+/*switch (a) {
 
 case (1...4): s = few;
 break;
@@ -75,7 +75,7 @@ s=0;
 break;
 
 }
-
+*/
 System.out.println(s);
 
 in.close();

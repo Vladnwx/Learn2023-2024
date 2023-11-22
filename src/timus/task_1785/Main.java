@@ -1,7 +1,5 @@
 package timus.task_1785;
 
-import java.util.Scanner;
-
 //JUDGE_ID 368360HH
 
 //https://acm.timus.ru/problem.aspx?space=1&num=1785
@@ -16,7 +14,7 @@ import java.util.Scanner;
 Но в языке аниндилъяква нет числительных. Как же, например, перевести на него фразу «у вас семь чёрных драконов, а у вашего врага — сорок»? Локализаторы решили перевести её так: «у вас немного чёрных драконов, а у вашего врага — толпа». Они составили таблицу, в которой указали правила замены чисел, обозначающих количество монстров, на существительные и местоимения:
 Количество	Обозначение на русском языке	Обозначение на языке аниндилъяква
 от 1 до 4	несколько	few
-от 5 до 9	немного	several
+от 5 до 9	немн368360HHого	several
 от 10 до 19	отряд	pack
 от 20 до 49	толпа	lots
 от 50 до 99	орда	horde
@@ -32,52 +30,22 @@ import java.util.Scanner;
 
 */
 
-public class task_1785 {
-    public static void main(String[] args){
-
-Scanner in = new Scanner(System.in);
-
-int a = in.nextInt();
-
-String s =" ";
-
-/*switch (a) {
-
-case (1...4): s = few;
-break;
-
-case(5..9) : s= several;
-break;
-
-case(10..19) : s = pack;
-break;
-
-case(20..49) : s= lots;
-break;
-
-case(50..99) : s = horde;
-break;
-
-case(100..249) : s = throng;
-break;
-
-case(250..499) : s = swarm;
-break;
-
-case (500..999) : s = zounds;
-break;
-
-case(1000..2000) : s = legion;
-break;
-
-default :
-s=0;
-break;
-
-}
-*/
-System.out.println(s);
-
-in.close();
-      }
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        String s =" ";
+if (a<=4) { s="few"; }
+else if (a<=9) { s = "several";}
+else if (a<=19) {s = "pack";}
+else if (a<=49) {s ="lots";}
+else if (a<=99) { s ="horde";}
+else if (a<=249) { s="throng";}
+else if (a<=499) {s="swarm";}
+else if (a<=999) {s="zounds";}
+else if (a>=1000) {s="legion";}
+        System.out.println(s);
+        in.close();
     }
+}

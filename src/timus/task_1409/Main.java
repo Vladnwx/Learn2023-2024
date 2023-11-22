@@ -1,7 +1,5 @@
 package timus.task_1409;
 
-import java.util.Scanner;
-
 //JUDGE_ID 368360HH
 
 //https://acm.timus.ru/problem.aspx?space=1&num=1409
@@ -20,21 +18,21 @@ import java.util.Scanner;
 
 */
 
-public class task_1409 {
-    public static void main(String[] args){
+import java.util.Scanner;
 
-Scanner in = new Scanner(System.in);
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-int garry;
-int larry;
+        int garry;
+        int larry;
 
-garry = in.nextInt();
-larry = in.nextInt();
-
-
-System.out.println((larry-1) + " " + (garry-1));
-in.close();
+        garry = in.nextInt();
+        larry = in.nextInt();
 
 
-      }
+        System.out.println((larry-1) + " " + (garry-1));
+        in.close();
+
     }
+}

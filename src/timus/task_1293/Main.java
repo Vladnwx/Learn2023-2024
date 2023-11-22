@@ -1,7 +1,5 @@
 package timus.task_1293;
 
-import java.util.Scanner;
-
 //JUDGE_ID 368360HH
 
 //https://acm.timus.ru/problem.aspx?space=1&num=1293
@@ -18,20 +16,19 @@ import java.util.Scanner;
 Выведите вес необходимого для обработки сульфида тория в нанограммах.
 */
 
-public class task_1293 {
-    public static void main(String[] args){
+import java.util.Scanner;
 
-int a, b, n;
+public class Main {
+    public static void main(String[] args) {
+        int a, b, n;
 
-Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
-n = in.nextInt();
-a = in.nextInt();
-b = in.nextInt();
+        n = in.nextInt();
+        a = in.nextInt();
+        b = in.nextInt();
 
-System.out.println(n*2*a*b);
-in.close();
-
-
-      }
+        System.out.println(n*2*a*b);
+        in.close();
     }
+}

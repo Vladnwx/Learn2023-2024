@@ -1,10 +1,14 @@
-package timus;
-
-import java.util.Scanner;
-
-//https://acm.timus.ru/problem.aspx?space=1&num=1001
+package timus.task_1001;
 
 //JUDGE_ID 368360HH
+
+//https://acm.timus.ru/problem.aspx?space=1&num=2100
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
 /*
 1001. Обратный корень
 Ограничение времени: 2.0 секунды
@@ -17,8 +21,8 @@ import java.util.Scanner;
 Для каждого числа Ai, начиная с последнего и заканчивая первым, в отдельной строке вывести его
 квадратный корень не менее чем с четырьмя знаками после десятичной точки.
 */
-public class SQRT {
-    public static void main(String[] args) throws InterruptedException {
+public class Main {
+    public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 
@@ -27,37 +31,37 @@ public class SQRT {
         int maxLenght = 5;
         double[] nums = new double[maxLenght];
 
-long l = 0L;
-int i=0;
-int j=0;
-double d=0.0D;
+        long l = 0L;
+        int i=0;
+        int j=0;
+        double d=0.0D;
 
-      if (nums.length>0){
-          while (i+j<maxLenght) {
-            if (in.hasNext(" "))
-            {
+        if (nums.length>0){
+            while (i+j<maxLenght) {
+                if (in.hasNext(" "))
+                {
 
-                j++;
-                System.out.println(j);
+                    j++;
+                    System.out.println(j);
+                }
+
+                if (in.hasNext()){
+                    in.next().trim();
+                    l = in.nextLong();
+                    d = Math.sqrt(l);
+                    nums[i] = d;
+                    i++;}
+                else {j++;}
             }
-
-              if (in.hasNext()){
-                in.next().trim();
-              l = in.nextLong();
-              d = Math.sqrt(l);
-              nums[i] = d;
-              i++;}
-            else {j++;}
-                                  }
-          in.close();
-          }
+            in.close();
+        }
 
 
-          while(i>0) {
-              String s = String.format("%.4f",nums[i-1] );
-              System.out.println(s);
-              i--;
-          }
-      }
+        while(i>0) {
+            String s = String.format("%.4f",nums[i-1] );
+            System.out.println(s);
+            i--;
+        }
+
     }
-
+}

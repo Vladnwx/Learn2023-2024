@@ -1,4 +1,4 @@
-package timus;
+package timus.task_1000;
 
 //https://acm.timus.ru/problem.aspx?space=1&num=1000
 

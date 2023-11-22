@@ -1,3 +1,5 @@
+package timus.task_1293;
+
 import java.util.Scanner;
 
 //JUDGE_ID 368360HH

@@ -1,3 +1,5 @@
+package timus.task_1785;
+
 import java.util.Scanner;
 
 //JUDGE_ID 368360HH
@@ -41,7 +43,7 @@ String s =" ";
 
 switch (a) {
 
-case (1..4): s = few;
+case (1...4): s = few;
 break;
 
 case(5..9) : s= several;
@@ -68,7 +70,7 @@ break;
 case(1000..2000) : s = legion;
 break;
 
-default : 
+default :
 s=0;
 break;
 

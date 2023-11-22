@@ -1,4 +1,7 @@
 package lr1;
+
+import java.util.Scanner;
+
 //Напишите программу, в которой по возрасту определяется год рождения.
 public class Example12 {
     public static void main(String[] args) {
@@ -9,9 +12,9 @@ System.out.println("Введите Ваш возраст: ");
 
 int age = in.nextInt();
 
-System.out.println("Ваш год рождения: " + (age);
+System.out.println("Ваш год рождения: " + (age));
 
-in.close;
+in.close();
 
     }
 }

@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1000/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1409/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1785/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/SQRT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1000/ABProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1293/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1001/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1293/task_1293.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1409/task_1409.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1785/task_1785.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1001/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +70,7 @@
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="timus.task_1001" />
       <recent name="timus.task_1785" />
       <recent name="timus.task_1409" />
       <recent name="timus.task_1293" />
@@ -194,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700673183481</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="timus">
+      <option name="closed" value="true" />
+      <created>1700837542281</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700837542281</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

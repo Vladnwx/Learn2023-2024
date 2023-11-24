@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1001/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr1/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР1.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr1/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР1.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1001/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +73,10 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="timus.task_1001" />
+      <recent name="timus.task_1000" />
       <recent name="timus.task_1785" />
       <recent name="timus.task_1409" />
       <recent name="timus.task_1293" />
-      <recent name="timus.task_1000" />
     </key>
   </component>
   <component name="RunManager">
@@ -194,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700837542281</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="timus">
+      <option name="closed" value="true" />
+      <created>1700837944144</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700837944144</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +253,16 @@
           <url>file://$PROJECT_DIR$/src/timus/task_1001/SQRT.java</url>
           <line>43</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

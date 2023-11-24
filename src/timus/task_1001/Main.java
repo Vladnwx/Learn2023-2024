@@ -15,15 +15,12 @@ public class Main {
 
         String inputFileName = "src/timus/task_1001/input.txt";
         boolean oj = System.getProperty("ONLINE_JUDGE") != null;
-        double[] nums= new double[100];
-        long l = 0L;
+
+        double[] nums;
         double d=0.0D;
         int i=0;
 
-        long c=0;
-
-        int j=0;
-
+String out="";
 
         try{
             BufferedReader bufferedReader =
@@ -31,25 +28,33 @@ public class Main {
                             new BufferedReader(new FileReader(inputFileName));
             String readLine ="";
 
-            Scanner in = oj ? new Scanner(new InputStreamReader(System.in)) :
-                    new Scanner(new FileReader(inputFileName));
+          while(i<100) {
+              readLine = bufferedReader.readLine();
 
-            // while((readLine =bufferedReader.readLine()) != null){
-            while((readLine =bufferedReader.readLine()) != null){
-                c++;
-            }
+              if (readLine != null) {
+                  readLine = readLine.replaceAll("\\s+", " ");
+                  out = out + " " + readLine;
+                  i++;
+              }
+              else i++;
 
-            while((readLine =bufferedReader.readLine()) == null & j<3){
-                j++;
-            }
-            c = inputFileName.codePoints().filter(Character::isDigit).count();
-            while(i<(c+j)){
-               // l = Long.parseLong(readLine);
-                l = in.nextLong();
-                d = Math.sqrt(l);
-                nums[i] = d;
-                i++;
-            }
+          }
+            out = out.replaceAll("\\s+", " ");
+
+
+          int j = out.length();
+
+            nums = new double[j];
+
+          Scanner in =new Scanner(out);
+
+          i=0;
+          while (in.hasNextLong()){
+
+              nums[i] = Math.sqrt(in.nextLong());
+              i++;
+          }
+in.close();
             while(i>0) {
                 String s = String.format("%.4f",nums[i-1] );
                 System.out.println(s);

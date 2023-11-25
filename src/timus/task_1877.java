@@ -15,22 +15,18 @@ int b = in.nextInt();
 if(a>0 & a%2==0) {
 System.out.println("yes");
 in.close();
-return 0;
 } 
 else if (a==0){
 System.out.println("yes");
 in.close();
-return 0;
 }
 else if(b>0 & b%2>0) {
 System.out.println("yes");
 in.close();
-return 0;
 }
 else if (b==1) {
 System.out.println("yes");
 in.close();
-return 0;
 }
 else System.out.println("NO");
 in.close();

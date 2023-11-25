@@ -8,11 +8,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+int tasks=12;
+int hours =5;
+int interval =45;
+int minutes =hours*60;
+int firstHours= 60;
         int a = 0;
         Scanner in = new Scanner(System.in);
         a = in.nextInt();
-        System.out.println(a);
+int result = minutes - firstHours -(tasks -a)*interval;
+
+if(result>0) {System.out.println("YES");}
+else System.out.println("NO");
 in.close();
     }
 }

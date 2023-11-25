@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1877/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2012/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1001/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1877" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1877.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_2012.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timus.task_2012.Main" />
+      <module name="Learn2023-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timus.task_2012.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ABProblem" />
       </list>
     </recent_temporary>
@@ -210,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700847858347</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="timus">
+      <option name="closed" value="true" />
+      <created>1700916973478</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700916973478</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,13 +290,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="66" />
+          <line>19</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="67" />
+          <line>18</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

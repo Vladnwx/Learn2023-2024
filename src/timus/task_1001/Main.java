@@ -8,28 +8,25 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         String inputFileName = "src/timus/task_1001/input.txt";
         boolean oj = System.getProperty("ONLINE_JUDGE") != null;
 
-        double[] nums;
-        double d=0.0D;
-        int i=0;
-
-String out="";
-
-        try{
+        byte[] bytes =  System.in.readNBytes(256);
+        System.out.println("Text [Byte Format] : " + bytes);
+  /*      try{
             BufferedReader bufferedReader =
                     oj ? new BufferedReader(new InputStreamReader(System.in)) :
                             new BufferedReader(new FileReader(inputFileName));
             String readLine ="";
+            String out ="";
 
+            int i=0;
           while(i<100) {
-              readLine = bufferedReader.readLine();
+               readLine = bufferedReader.readLine();
 
               if (readLine != null) {
                   readLine = readLine.replaceAll("\\s+", " ");
@@ -37,30 +34,30 @@ String out="";
                   i++;
               }
               else i++;
-
           }
             out = out.replaceAll("\\s+", " ");
+            String[] strings = out.split(" ", 100);
+            int ccc =strings.length;
+            double [] nums = new double[100];
+            for (int c=0; c<strings.length;c++) {
+                if (strings[c].isEmpty()){
+                    nums[c] = -1.0D;
+                    continue;
+                }
+                else {
+                    nums[c] = Math.sqrt(Double.parseDouble(strings[c]));
+                }
+            }
 
-
-          int j = out.length();
-
-            nums = new double[j];
-
-          Scanner in =new Scanner(out);
-
-          i=0;
-          while (in.hasNextLong()){
-
-              nums[i] = Math.sqrt(in.nextLong());
-              i++;
-          }
-in.close();
-            while(i>0) {
-                String s = String.format("%.4f",nums[i-1] );
+            while(ccc>0) {
+                if(nums[ccc-1]>=0){
+                String s = String.format("%.4f",nums[ccc-1] );
                 System.out.println(s);
-                i--;}
+                ccc--;}
+                else ccc--;
+            }
         } catch (IOException exception){
             exception.printStackTrace();
-        }
+        }*/
     }
 }

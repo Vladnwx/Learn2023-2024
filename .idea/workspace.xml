@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="lr2 example5 add solution">
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1264/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timus/task_2001/Main.java" afterDir="false" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1787/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1787/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1820/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_2001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_2001/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +55,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_1001&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_1787"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1787" />
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1001" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -284,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700930114749</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="timus">
+      <option name="closed" value="true" />
+      <created>1700933071603</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1700933071603</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,14 +314,14 @@
     <MESSAGE value="lr 1 add" />
     <MESSAGE value="psvm add" />
     <MESSAGE value="ex7" />
-    <MESSAGE value="timus" />
     <MESSAGE value="lr2 add" />
     <MESSAGE value="lr2 example 1 add solution" />
     <MESSAGE value="lr2 example2 add solution" />
     <MESSAGE value="lr2 example3 add solution" />
     <MESSAGE value="lr2 example4 add solution" />
     <MESSAGE value="lr2 example5 add solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="lr2 example5 add solution" />
+    <MESSAGE value="timus" />
+    <option name="LAST_COMMIT_MESSAGE" value="timus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

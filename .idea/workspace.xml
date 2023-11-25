@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="lr2 add">
-      <change afterPath="$PROJECT_DIR$/src/lr2/Example1.java" afterDir="false" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="lr2 example 1 add solution">
+      <change afterPath="$PROJECT_DIR$/src/lr2/Example2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700924193722</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="lr2 example 1 add solution">
+      <option name="closed" value="true" />
+      <created>1700925050352</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700925050352</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +278,8 @@
     <MESSAGE value="ex7" />
     <MESSAGE value="timus" />
     <MESSAGE value="lr2 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="lr2 add" />
+    <MESSAGE value="lr2 example 1 add solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="lr2 example 1 add solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,7 @@ public class Example2 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите целое число:");
+        System.out.println("Введите целое число, которое: при делении на 5 в остатке получается 2, а при делении на 7 в остатке получается 1");
         long l;
         if (in.hasNextLong()) {
             l = in.nextLong();

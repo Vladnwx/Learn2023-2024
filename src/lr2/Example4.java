@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Example4 {
 
     public static void main(String[] args) {
-
+        System.out.println("Введите целое число, которое попадает в диапозон от 5 до 10 включительно:");
         Scanner in = new Scanner(System.in);
         int i;
         if (in.hasNextInt()){

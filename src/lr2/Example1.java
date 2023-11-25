@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Example1 {
 
     public static void main(String[] args) {
-        {System.out.println("Введите целое число");}
+        {System.out.println("Введите целое число, которое делится на 3");}
         Scanner in = new Scanner(System.in);
         long l;
         if (in.hasNextLong()){

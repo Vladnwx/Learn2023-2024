@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="lr2 example5 add solution" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="lr2 example5 add solution">
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1264/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2001/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,19 +80,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ABProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timus.task_1000.ABProblem" />
-      <module name="Learn2023-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timus.task_1000.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="timus.task_2012.Main" />
       <module name="Learn2023-2024" />
@@ -105,7 +96,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ABProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700927254992</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="lr2 example5 add solution">
+      <option name="closed" value="true" />
+      <created>1700930114749</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1700930114749</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

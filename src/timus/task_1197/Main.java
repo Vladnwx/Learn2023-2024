@@ -27,9 +27,107 @@ g6
                                 8
                                 6
  */
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        String inputFileName = "src/timus/task_1197/input.txt";
+        boolean oj = System.getProperty("ONLINE_JUDGE") != null;
+
+        Scanner in =
+                null;
+        try {
+            in = oj ? new Scanner(System.in) :
+                    new Scanner(new FileReader(inputFileName));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
+        //Scanner in = new Scanner(System.in);
+        int N;
+       // int[][] board = {{1, 2, 3, 4, 5, 6, 7, 8}, {1, 2, 3, 4, 5, 6, 7, 8}};
+        N= in.nextInt();
+
+        for (int i=0; i<N;i++){
+            String coordinatetemp = in.next();
+            String coordinateYtemp = String.valueOf(coordinatetemp.charAt(0));
+            int coordinateY;
+             switch (coordinateYtemp) {
+                 case "a" :
+                            coordinateY =1;
+                                break;
+                 case "b" :
+                     coordinateY =2;
+                     break;
+                 case "c" :
+                     coordinateY =3;
+                     break;
+                 case "d" :
+                     coordinateY =4;
+                     break;
+                 case "e" :
+                     coordinateY =5;
+                     break;
+                 case "f" :
+                     coordinateY =6;
+                     break;
+                 case "g" :
+                     coordinateY =7;
+                     break;
+                 case "h" :
+                     coordinateY =1;
+                     break;
+                 default: coordinateY =0;
+            };
+            int coordinateX = Integer.parseInt(String.valueOf(coordinatetemp.charAt(1)));
+         //   System.out.println("Координата Х: " + coordinateX + " Координата Y: " + coordinateY);
+            int count=0;
+            if((coordinateX+2) <=8)
+            {
+                if((coordinateY+1) <=8){
+                    count++;
+                }
+                if ((coordinateY-1) >0)
+                {
+                    count++;
+                }
+            }
+            if((coordinateX+1) <=8)
+            {
+                if((coordinateY+2) <=8){
+                    count++;
+                }
+                if ((coordinateY-2) >0)
+                {
+                    count++;
+                }
+            }
+            if((coordinateX-2) >0)
+            {
+                if((coordinateY+1) <=8){
+                    count++;
+                }
+                if ((coordinateY-1) >0)
+                {
+                    count++;
+                }
+            }
+            if((coordinateX-1) >0)
+            {
+                if((coordinateY+2) <=8){
+                    count++;
+                }
+                if ((coordinateY-2) >0)
+                {
+                    count++;
+                }
+            }
+           // System.out.println("Количество клеток под боем коня: " + count);
+            System.out.println(count);
+        }
 
 
     }

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="add lr3">
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1197/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr3/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР3.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1197/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1197/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_1787&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_1197"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1197" />
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1787" />
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1001" />
     </key>
@@ -331,7 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700977028147</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add lr3">
+      <option name="closed" value="true" />
+      <created>1700980140936</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1700980140936</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add lr3">
+      <option name="closed" value="true" />
+      <created>1700980197593</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1700980197593</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,56 +377,21 @@
     <MESSAGE value="lr2 example4 add solution" />
     <MESSAGE value="lr2 example5 add solution" />
     <MESSAGE value="timus" />
-    <option name="LAST_COMMIT_MESSAGE" value="timus" />
+    <MESSAGE value="add lr3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lr3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/SQRT.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/timus/task_1197/Main.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/SQRT.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/SQRT.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/SQRT.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/SQRT.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1001/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="112" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

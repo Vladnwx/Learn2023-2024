@@ -1,6 +1,8 @@
 package timus.task_1264;
 //JUDGE_ID 368360HH
 
+//lr2
+//https://acm.timus.ru/problem.aspx?space=1&num=1264
 /*
 1264. Трудовые будни
 Ограничение времени: 1.0 секунды

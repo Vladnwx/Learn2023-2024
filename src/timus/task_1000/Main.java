@@ -2,6 +2,9 @@ package timus.task_1000;
 
 //JUDGE_ID 368360HH
 
+
+//lr1
+
 //https://acm.timus.ru/problem.aspx?space=1&num=1000
 
 import java.io.BufferedReader;

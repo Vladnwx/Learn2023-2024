@@ -2,6 +2,8 @@ package timus.task_1409;
 
 //JUDGE_ID 368360HH
 
+//lr2
+
 //https://acm.timus.ru/problem.aspx?space=1&num=1409
 
 /*

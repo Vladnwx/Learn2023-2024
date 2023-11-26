@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr2/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР2.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr2/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР2.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timus/task_1000/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1000/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1264/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1264/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1293/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1293/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1409/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1409/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1785/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1785/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700939514408</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="timus">
+      <option name="closed" value="true" />
+      <created>1700976783806</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1700976783806</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="timus">
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1880/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1880/input.txt" afterDir="false" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr3/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr3/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/Example2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700984848682</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Решение задачи 1">
+      <option name="closed" value="true" />
+      <created>1701353630384</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1701353630384</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +393,8 @@
     <MESSAGE value="lr2 example5 add solution" />
     <MESSAGE value="add lr3" />
     <MESSAGE value="timus" />
-    <option name="LAST_COMMIT_MESSAGE" value="timus" />
+    <MESSAGE value="Решение задачи 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

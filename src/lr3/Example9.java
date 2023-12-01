@@ -24,21 +24,29 @@ public class Example9 {
             return;
         }
         int [] arr = new int[a];
+        int [] arr2 = new int[a];
         Random random = new Random();
         for (int i=0; i<arr.length; i++){
             arr[i] = random.nextInt(200);
+            arr2[i]= arr[i];
         }
         System.out.println("Массив до сортировки");
         System.out.println(Arrays.toString(arr));
-        Arrays.sort(arr);
+        Arrays.parallelSort(arr2);
         System.out.println("Массив после сортировки");
         System.out.println(Arrays.toString(arr));
         System.out.println("Минимальное значение в массиве");
         System.out.println("Элемент массива [" + 0 + "] = " + arr[0]);
 
-        System.out.println("Индексы элементов массива с минимальным значением: ");
+        System.out.println("Индексы элементов массива с минимальным значением в исходном  массиве: ");
         for (int i=0; i<arr.length; i++){
             if (arr[i]==arr[0]){
+                System.out.print(" " + i);
+            }
+        }
+        System.out.println("\nИндексы элементов массива с минимальным значением в отсортировыанном массиве: ");
+        for (int i=0; i<arr2.length; i++){
+            if (arr2[i]==arr2[0]){
                 System.out.print(" " + i);
             }
         }

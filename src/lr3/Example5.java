@@ -1,6 +1,5 @@
 package lr3;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -17,19 +16,47 @@ public class Example5 {
         a=in.nextInt();
         System.out.println("Через цикл for: ");
 
-        int[] arr = new int[a];
-        int result=0;
-        for (int i=0; i<a;i++){
-            result +=arr[i];
-            Arrays.toString(arr);
+        System.out.println("Последовательность чисел при делении числа на 5 в остатке получа-ется 2");
+        int result=2;
+        System.out.print("2+");
+        for (int i=1; i<a;i++){
+            if (i<a-1)System.out.print("5+");
+            else System.out.print("5");
+            result +=5;
         }
+        System.out.print(" = " +result + "\n");
+        System.out.println("Последовательность чисел при делении на 3 в остатке получается 1");
+        result=1;
+        System.out.print("1+");
+        for (int i=1; i<a;i++){
+            if (i<a-1)System.out.print("3+");
+            else System.out.print("3");
+            result +=3;
+        }
+        System.out.print(" = " +result+ "\n");
+        System.out.println("Через цикл while: ");
+        System.out.println("Последовательность чисел при делении числа на 5 в остатке получа-ется 2");
+        result =2;
+        int i=1;
+        System.out.print("2+");
+        while (i<a){
+            if (i<a-1)System.out.print("5+");
+            else System.out.print("5");
+            result +=5;
+            i++;
+        }
+        System.out.print(" = " +result + "\n");
 
-        if ((result/5==2 | result/3==1) & result>2){
-        System.out.print(" = ");
-        System.out.print(result);}
-        System.out.println("\n"+ result/5);
-        System.out.println(result/3);
-
-
+        System.out.println("Последовательность чисел при делении числа на 5 в остатке получа-ется 2");
+        result =1;
+         i=1;
+        System.out.print("1+");
+        while (i<a){
+            if (i<a-1)System.out.print("3+");
+            else System.out.print("3");
+            result +=3;
+            i++;
+        }
+        System.out.print(" = " +result + "\n");
     }
 }

@@ -2,6 +2,7 @@ package lr3;
 
 import org.graalvm.nativeimage.c.struct.SizeOf;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -63,7 +64,17 @@ public class Example3 {
                 i++;
             }
         }
+        System.out.println("\nЧисла Фибоначчи черз массив");
 
+        long [] arr = new long[(int) a];
 
+for (int k =0; k<a; k++){
+    if (k>1) {
+        arr[k]=arr[k-1]+arr[k-2];
+    }
+    else if (k==0) arr[k]=1;
+    else if (k==1) arr[k]=1;
+}
+        System.out.println(Arrays.toString(arr));
     }
 }

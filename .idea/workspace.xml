@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 7">
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr3/Example7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/Example7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr3/Example8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/Example8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr3/Example9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/Example9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,7 +454,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701448711866</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Решение задачи 8">
+      <option name="closed" value="true" />
+      <created>1701451461174</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1701451461174</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Решение задачи 8">
+      <option name="closed" value="true" />
+      <created>1701451506532</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1701451506532</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +506,8 @@
     <MESSAGE value="Решение задачи 5" />
     <MESSAGE value="Решение задачи 6" />
     <MESSAGE value="Решение задачи 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 7" />
+    <MESSAGE value="Решение задачи 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,26 +525,6 @@
           <url>file://$PROJECT_DIR$/src/timus/task_1880/Main.java</url>
           <line>30</line>
           <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lr3/Example8.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lr3/Example8.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lr3/Example8.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lr3/Example8.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

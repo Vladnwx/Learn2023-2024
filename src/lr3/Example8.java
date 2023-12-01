@@ -16,7 +16,8 @@ public class Example8 {
         for (int i = 0; i< arr.length; i++)
         {
             for (int c=1; c<10;c++){
-                if (((c+a) == (int) 'A') | ((c+a) == (int) 'E') | ((c+a) == (int) 'I') | ((c+a) == (int) 'O') | ((c+a) == (int) 'U') | ((c+a) == (int) 'Y')){
+                if (((c+a) == (int) 'A') | ((c+a) == (int) 'E') | ((c+a) == (int) 'I') | ((c+a) == (int) 'O') | ((c+a) == (int) 'U') | ((c+a) == (int) 'Y'))
+                {
                 }
                 else {
                     a=a+c;

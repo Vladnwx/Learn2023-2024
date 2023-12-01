@@ -1,5 +1,6 @@
 package lr3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -20,7 +21,13 @@ public class Example6 {
             System.out.println("Введено некорректное значение");
             return;
         }
+        int [] arr = new int[a];
 
-
+        for (int i=0; i<a; i++){
+            if (i==0) arr[i]=2;
+            else arr[i]=arr[i-1]+5;
+        }
+        System.out.println("Массив значений: ");
+        System.out.println(Arrays.toString(arr));
     }
 }

@@ -1,5 +1,6 @@
 package lr3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -22,11 +23,13 @@ public class Example7 {
             return;
         }
         int [] arr = new int[a];
+        char [] arr2 = new char[a];
         ch = (int) 'a' -2;
 
         for(int i=0; i<a; i++){
             ch+=2;
             arr[i]=ch;
+            arr2[i]=(char) ch;
         }
         System.out.println("Прямой массив :");
         for(int i=0; i<a; i++){
@@ -36,6 +39,11 @@ public class Example7 {
         for(int i=a-1; i>=0; i--){
             System.out.print((char) arr[i] +" ");
         }
-
+        System.out.println("\nПрямой массив :");
+        System.out.println("\n" +Arrays.toString(arr2));
+        System.out.println("\nОбратный массив: ");
+        for(int i=a-1; i>=0; i--){
+            System.out.print(arr2[i] +" ");
+        }
     }
 }

@@ -1,4 +1,7 @@
 package lr3;
+
+import java.util.Scanner;
+
 /*
 Напишите программу, в которой создается одномерный символьный массив из 10 элементов.
 Массив заполняется буквами «через одну», начиная с буквы ' а ':
@@ -8,6 +11,31 @@ package lr3;
  */
 public class Example7 {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int a;
+        int ch;
+        System.out.println("Введите размер массива:");
+        if (in.hasNextInt()) {
+            a = in.nextInt();
+        } else {
+            System.out.println("Введено некорректное значение");
+            return;
+        }
+        int [] arr = new int[a];
+        ch = (int) 'a' -2;
+
+        for(int i=0; i<a; i++){
+            ch+=2;
+            arr[i]=ch;
+        }
+        System.out.println("Прямой массив :");
+        for(int i=0; i<a; i++){
+            System.out.print((char) arr[i] +" ");
+        }
+        System.out.println("\nОбратный массив: ");
+        for(int i=a-1; i>=0; i--){
+            System.out.print((char) arr[i] +" ");
+        }
 
     }
 }

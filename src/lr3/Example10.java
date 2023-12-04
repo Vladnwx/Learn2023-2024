@@ -23,9 +23,36 @@ public class Example10 {
         for (int i=0; i<arr.length; i++){
             arr[i] = random.nextInt(1000);
         }
-        Arrays.parallelSort(arr);
 
+        int [] arr1 = arr.clone();
+        int [] arr2 = arr.clone();
+        int [] arr3 = arr.clone();
+        int [] arr4 = arr.clone();
+
+        System.out.println("Исходный массив");
         System.out.println(Arrays.toString(arr));
+
+        System.out.println("Сортировка пузырьком по возрастанию/ Bubble sort");
+        for (int i=0; i< arr1.length; i++){
+            for (int j=i+1;j<arr1.length;j++){
+                if (arr1[i]<arr1[j]){
+                    int tmp = arr1[i];
+                    arr1[i]=arr1[j];
+                    arr1[j]=tmp;
+                }
+            }
+        }
+        System.out.println("Отсортированный массив");
+        System.out.println(Arrays.toString(arr1));
+
+        System.out.println("Шейкерная сортировка по возрастанию/ Shaker sort");
+
+
+
+        System.out.println("Отсортированный массив");
+        System.out.println(Arrays.toString(arr1));
+
+
 
     }
 }

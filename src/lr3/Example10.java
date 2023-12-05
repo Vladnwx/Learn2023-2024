@@ -45,13 +45,18 @@ public class Example10 {
         System.out.println("Отсортированный массив");
         System.out.println(Arrays.toString(arr1));
 
-        System.out.println("Шейкерная сортировка по возрастанию/ Shaker sort");
+      /*  System.out.println("Шейкерная сортировка по возрастанию/ Shaker sort");
 
+        int start =0, end=0;
+
+        for (int i =0; i<arr2.length; i++){
+
+        }
 
 
         System.out.println("Отсортированный массив");
-        System.out.println(Arrays.toString(arr1));
-
+        System.out.println(Arrays.toString(arr1));*/
+in.close();
 
 
     }

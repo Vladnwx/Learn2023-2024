@@ -1,5 +1,4 @@
-package timus.task_1910;
-//JUDGE_ID 368360HH
+package timus.task_1068;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -7,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String inputFileName = "src/timus/task_1910/input.txt";
+        String inputFileName = "src/timus/task_1068/input.txt";
         boolean oj = System.getProperty("ONLINE_JUDGE") != null;
 
         Scanner in =

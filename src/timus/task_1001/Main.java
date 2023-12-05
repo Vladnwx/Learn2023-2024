@@ -15,7 +15,7 @@ public class Main {
         String inputFileName = "src/timus/task_1001/input.txt";
         boolean oj = System.getProperty("ONLINE_JUDGE") != null;
 
-        byte[] bytes =  System.in.readNBytes(256);
+        byte[] bytes =  System.in.readNBytes(256*1024);
         System.out.println("Text [Byte Format] : " + bytes);
   /*      try{
             BufferedReader bufferedReader =

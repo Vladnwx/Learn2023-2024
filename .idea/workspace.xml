@@ -4,19 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Исходные данные для лаб">
-      <change afterPath="$PROJECT_DIR$/src/lr4/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР4.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr5/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР5.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr6/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР6.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr7/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР7.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr8/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР8.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1639/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timus/task_1910/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timus/РИЗ-130916у Савельев В.Н. Отчет о выполнении задачи с сайта timus.pptx" afterDir="false" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение 1880">
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr4/Example9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1068/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1068/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1100/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1100/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1209/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1209/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1225/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1225/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1263/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1263/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1264/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1293/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1313/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1313/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1319/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1319/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1327/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1327/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1409/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1567/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1567/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1581/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1581/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1585/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1585/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1607/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1607/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1639/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1785/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1820/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1877/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1910/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1924/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1924/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1991/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1991/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2001/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2012/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2023/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2023/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2056/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2056/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_2066/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task1639" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task1910" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1880/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1880/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1001/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1910/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1910/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +113,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/Learn2023-2024/src/timus"
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_2066"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus" />
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr8" />
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr7" />
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr6" />
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr5" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_2066" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_2056" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_2023" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_2012" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_2001" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1639" />
@@ -122,14 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00002" summary="lr 1 add">
-      <option name="closed" value="true" />
-      <created>1700413202044</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1700413202044</updated>
     </task>
     <task id="LOCAL-00003" summary="lr 1 add">
       <option name="closed" value="true" />
@@ -515,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701786114844</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Решение 1880">
+      <option name="closed" value="true" />
+      <created>1701791197961</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1701791197961</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +598,8 @@
     <MESSAGE value="Решение задачи 9" />
     <MESSAGE value="Решение задачи 10" />
     <MESSAGE value="Исходные данные для лаб" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исходные данные для лаб" />
+    <MESSAGE value="Решение 1880" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение 1880" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

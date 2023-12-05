@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 10">
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Исходные данные для лаб">
+      <change afterPath="$PROJECT_DIR$/src/lr4/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР4.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr5/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР5.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr6/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР6.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr7/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР7.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lr8/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР8.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1639/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/task_1910/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timus/РИЗ-130916у Савельев В.Н. Отчет о выполнении задачи с сайта timus.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr3/Example10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/Example10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr3/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr3/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР3.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task1639" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task1910" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1880/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1880/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +62,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_1880&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Learn2023-2024/src/timus"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1880" />
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1197" />
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1787" />
-      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1001" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr8" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr7" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr6" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1639" />
+      <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_1910" />
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\lr1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -110,14 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00001" summary="timus">
-      <option name="closed" value="true" />
-      <created>1699700647737</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1699700647737</updated>
     </task>
     <task id="LOCAL-00002" summary="lr 1 add">
       <option name="closed" value="true" />
@@ -495,7 +499,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701704857010</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Решение задачи 10">
+      <option name="closed" value="true" />
+      <created>1701785794926</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1701785794926</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Исходные данные для лаб">
+      <option name="closed" value="true" />
+      <created>1701786114844</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1701786114844</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,7 +554,8 @@
     <MESSAGE value="Решение задачи 8" />
     <MESSAGE value="Решение задачи 9" />
     <MESSAGE value="Решение задачи 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 10" />
+    <MESSAGE value="Исходные данные для лаб" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исходные данные для лаб" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -543,16 +564,6 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="112" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1880/Main.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1880/Main.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

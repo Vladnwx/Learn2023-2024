@@ -1,11 +1,12 @@
 package timus.task_1880;
 // JUDGE_ID 368360HH
+//https://acm.timus.ru/problem.aspx?space=1&num=1880
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.Arrays;
 import java.util.Scanner;
 
-//https://acm.timus.ru/problem.aspx?space=1&num=1880
 public class Main {
     public static void main(String[] args) {
         String inputFileName = "src/timus/task_1880/input.txt";
@@ -38,16 +39,32 @@ public class Main {
             arrC[i]=in.nextInt();
         }
         int result=0;
-        
-        for (int i=0; i<a; i++) {
-            for (int j=0;j<b; j++){
-                for (int k=0; k<c; k++){
-                    if (arrA[i]==arrB[j] & arrA[i]==arrC[j])  {
-                        result++;
-                    }
-                }
+
+        int[] arr = new int[a+b+c];
+
+        for (int i=0; i<arr.length; i++){
+            if (i<a){
+                arr[i]=arrA[i];
+            } else if (i<a+b) {
+                arr[i]=arrB[i-a];
+            } else {
+                arr[i]=arrC[i-a-b];
             }
         }
+
+       // System.out.println(Arrays.toString(arr));
+
+        Arrays.parallelSort(arr);
+
+      //  System.out.println(Arrays.toString(arr));
+
+        for (int i=1; i<arr.length-1; i++)
+        {
+            if (arr[i-1]==arr[i+1] && arr[i]==arr[i+1]){
+                result++;
+            }
+        }
+
         System.out.println(result);
         }
    }

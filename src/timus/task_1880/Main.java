@@ -19,36 +19,35 @@ public class Main {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-       // int block =3;
-        int count =0;
-        int number=0;
+       
+        int a, b,c;
+        
+        a=in.nextInt();
+        int [] arrA = new int[a];
+        for (int i=0; i<a; i++){
+            arrA[i]=in.nextInt();
+        }
+        b=in.nextInt();
+        int [] arrB = new int[b];
+        for (int i=0; i<b; i++){
+            arrB[i]=in.nextInt();
+        }
+        c=in.nextInt();
+        int [] arrC = new int[c];
+        for (int i=0; i<c; i++){
+            arrC[i]=in.nextInt();
+        }
         int result=0;
-        int [] arr1 = new int[4000];
-        int [] arr2 = new int[4000];
-        int [] arr3 = new int[4000];
-
-        for (int block =0; block <3; block++){
-            count = in.nextInt();
-            for (int i=0; i<count; i++){
-                number = in.nextInt();
-                switch (block) {
-                    case 0:
-                        arr1[i]=number;
-                        break;
-                    case 1:
-                        arr2[i]=number;
-                        break;
-                    case 2:
-                        arr3[i]=number;
-                        break;
-                }
+        
+        for (int i=0; i<a; i++) {
+            for (int j=0;j<b; j++){
+                for (int k=0; k<c; k++){
+                    if (arrA[i]==arrB[j] & arrA[i]==arrC[j])  {
+                        result++;
+                    }
                 }
             }
-        int [] arr11 = new int[4000];
-                in.close();
         }
-
-
-
-    }
-
+        System.out.println(result);
+        }
+   }

@@ -5,4 +5,7 @@ package lr4;
 остальные условия идентичны задаче 8.
  */
 public class Example9 {
+    public static void main(String[] args) {
+
+    }
 }

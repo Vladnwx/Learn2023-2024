@@ -12,4 +12,7 @@ package lr4;
 отличное от «y» или «n», то программа ему выводит сообщение: «Введите корректный ответ».
  */
 public class Example8 {
+    public static void main(String[] args) {
+
+    }
 }

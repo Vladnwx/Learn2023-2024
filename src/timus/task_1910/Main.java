@@ -18,5 +18,28 @@ public class Main {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+
+int a;
+a= in.nextInt();
+int[] arr = new int[a];
+
+for (int i=0; i<a; i++){
+arr[i] = in.nextInt();
+}
+
+int result =0, count =0;
+
+for (int i=1; i<a-1; i++)
+{
+int tmp = arr[i-1] + arr[i] + arr[i+1];
+
+if (tmp>result){
+result = tmp;
+count = i;
+}
+
+}
+
+System.out.println(result + " " + count);
     }
 }

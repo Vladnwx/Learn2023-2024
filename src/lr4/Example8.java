@@ -21,7 +21,7 @@ public class Example8 {
         s = in.next();
         System.out.println("Введите ключ:");
         int key = in.nextInt();
-        if (key>255){
+        while (key>255){
             key-=255;
         }
         int l=s.length();

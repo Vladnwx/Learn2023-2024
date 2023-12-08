@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Оформил отчеты">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr5/Example6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/Example6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,14 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00015" summary="timus">
-      <option name="closed" value="true" />
-      <created>1700923057129</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1700923057129</updated>
     </task>
     <task id="LOCAL-00016" summary="lr2 add">
       <option name="closed" value="true" />
@@ -520,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702050381960</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Оформил отчеты">
+      <option name="closed" value="true" />
+      <created>1702050674700</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1702050674700</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lr2 example 1 add solution" />
     <MESSAGE value="lr2 example2 add solution" />
     <MESSAGE value="lr2 example3 add solution" />
     <MESSAGE value="lr2 example4 add solution" />
@@ -561,7 +563,8 @@
     <MESSAGE value="Решение задачи" />
     <MESSAGE value="Добавка psvm" />
     <MESSAGE value="Решение" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение" />
+    <MESSAGE value="Оформил отчеты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оформил отчеты" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Оформил отчеты">
-      <change beforePath="$PROJECT_DIR$/src/lr5/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР5.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР5.pptx" afterDir="false" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Добавил файлы задач">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,22 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00017" summary="lr2 example 1 add solution">
-      <option name="closed" value="true" />
-      <created>1700925050352</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1700925050352</updated>
-    </task>
-    <task id="LOCAL-00018" summary="lr2 example2 add solution">
-      <option name="closed" value="true" />
-      <created>1700925712629</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1700925712629</updated>
     </task>
     <task id="LOCAL-00019" summary="lr2 example3 add solution">
       <option name="closed" value="true" />
@@ -522,7 +516,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702053663488</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Оформил отчеты">
+      <option name="closed" value="true" />
+      <created>1702053784491</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1702053784491</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Добавил файлы задач">
+      <option name="closed" value="true" />
+      <created>1702053962457</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1702053962457</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,7 +548,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lr2 example2 add solution" />
     <MESSAGE value="lr2 example3 add solution" />
     <MESSAGE value="lr2 example4 add solution" />
     <MESSAGE value="lr2 example5 add solution" />
@@ -563,7 +572,8 @@
     <MESSAGE value="Добавка psvm" />
     <MESSAGE value="Решение" />
     <MESSAGE value="Оформил отчеты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оформил отчеты" />
+    <MESSAGE value="Добавил файлы задач" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил файлы задач" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

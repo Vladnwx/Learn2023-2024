@@ -1,8 +1,6 @@
-import java.util.Random;
-import java.lang.Math;
+package lr5;
 
-public class Main
-{
+public class Example5 {
     public static class GeniusInt{
         private int i;
         public void setInt(){

@@ -1,21 +1,19 @@
-import java.util.Random;
-import java.lang.Math;
+package lr5;
 
-public class Main
-{
+public class Example6 {
     public static class MaxMinInt{
         private int min, max;
 
         public void setInt(int min, int max){
-            if (max>=min && (max>this.max  this.max==0 )) {
+            if (max>=min && (max>this.max || this.max==0 )) {
                 this.max = max;
-                if ( min<this.min  this.min==0){
+                if ( min<this.min || this.min==0){
                 this.min =min;    
                 }
                 
-            } else if (max<min && ( max<this.min  this.min==0)) {
+            } else if (max<min && ( max<this.min || this.min==0)) {
                 this.min = max; 
-               if ( min<this.max  this.max==0){
+               if ( min<this.max || this.max==0){
                 this.max =min;    
                 } 
             } 

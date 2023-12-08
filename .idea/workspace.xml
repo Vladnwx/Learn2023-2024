@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи">
-      <change beforePath="$PROJECT_DIR$/src/lr4/Example7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr4/Example7.java" afterDir="false" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Добавка psvm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr5/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr5/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr5/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/Example3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr5/Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/Example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr5/Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/Example5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr5/Example6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr5/Example6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1068/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1068/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00010" summary="timus">
-      <option name="closed" value="true" />
-      <created>1700673183481</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1700673183481</updated>
     </task>
     <task id="LOCAL-00011" summary="timus">
       <option name="closed" value="true" />
@@ -504,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701884988414</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Добавка psvm">
+      <option name="closed" value="true" />
+      <created>1701885576699</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1701885576699</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ex7" />
     <MESSAGE value="lr2 add" />
     <MESSAGE value="lr2 example 1 add solution" />
     <MESSAGE value="lr2 example2 add solution" />
@@ -545,7 +551,8 @@
     <MESSAGE value="Решение 1880" />
     <MESSAGE value="add lr" />
     <MESSAGE value="Решение задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи" />
+    <MESSAGE value="Добавка psvm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавка psvm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

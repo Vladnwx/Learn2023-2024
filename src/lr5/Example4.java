@@ -1,8 +1,9 @@
+package lr5;
+
 import java.util.Random;
 import java.lang.Math;
 
-public class Main
-{
+public class Example4 {
     public static class CharAndInt{
         private int i;
         private char c;

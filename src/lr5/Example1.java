@@ -1,51 +1,47 @@
-//
-public static class User {
-        
+package lr5;//
+
+public class Example1 {
+    public static class User {
+
         private char symbol;
-        
-        public void setSymbol (String symbol)
-        {
+
+        public void setSymbol(String symbol) {
             this.symbol = (char) symbol.charAt(0);
         }
-        
-        public char getSymbol ()
-        {
+
+        public char getSymbol() {
             return symbol;
         }
-        
-         public void printSymbol ()
-        {
+
+        public void printSymbol() {
             System.out.println("Символ: " + getSymbol());
         }
-        
-         public void printValue ()
-        {
+
+        public void printValue() {
             System.out.println("Код символа: " + (int) getSymbol());
         }
-        
-        
-        public int getValue ()
-        {
+
+
+        public int getValue() {
             return (int) symbol;
         }
-        
-        
-        public void printSymbolAndValue ()
-        {
-            System.out.println("Символ: " + getSymbol() + " Код символа: "  + (int) getSymbol());
+
+
+        public void printSymbolAndValue() {
+            System.out.println("Символ: " + getSymbol() + " Код символа: " + (int) getSymbol());
         }
-        
-        
+
+
     }
-  
-  
-  public static void main(String[] args) {
-    
-    
-    
-    User user = new User();
-    user.setSymbol("a");
-    user.printSymbol();
-    user.printSymbolAndValue();
-    
-  }
+
+
+    public static void main(String[] args) {
+
+
+        User user = new User();
+        user.setSymbol("a");
+        user.printSymbol();
+        user.printSymbolAndValue();
+
+    }
+}

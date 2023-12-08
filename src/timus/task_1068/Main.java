@@ -34,7 +34,6 @@ public class Main {
         int a, sum=0;
 a=in.nextInt();
 if (a<=0) {
-for (int )
 
 }
 else { 

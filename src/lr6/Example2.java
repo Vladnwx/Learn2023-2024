@@ -7,4 +7,26 @@ package lr6;
 значение поля увеличивается на единицу.
  */
 public class Example2 {
+
+    public static class CouterOut{
+        private static int i=0;
+        public static void printToConsole(){
+            System.out.println("Текущее значение счетчика вывода: " + i);
+            i++;
+        }
+    }
+    public static void main(String[] args) {
+
+        CouterOut.printToConsole();
+
+        CouterOut.printToConsole();
+
+        CouterOut.printToConsole();
+
+        CouterOut.printToConsole();
+
+        CouterOut.printToConsole();
+
+
+    }
 }

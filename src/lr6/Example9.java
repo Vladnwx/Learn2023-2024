@@ -6,4 +6,8 @@ package lr6;
 второй — с предпоследним и так далее.
  */
 public class Example9 {
+
+    public static void main(String[] args) {
+
+    }
 }

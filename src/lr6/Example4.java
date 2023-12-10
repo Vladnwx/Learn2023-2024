@@ -10,4 +10,8 @@ package lr6;
 Например, 6!! = 6 х 4 х 2 = 48 и 5!! = 5 х 3 х 1 = 15.
  */
 public class Example4 {
+
+    public static void main(String[] args) {
+
+    }
 }

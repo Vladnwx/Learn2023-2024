@@ -7,4 +7,8 @@ package lr6;
 наименьшее значение, а также среднее значение из набора чисел.
  */
 public class Example3 {
+
+    public static void main(String[] args) {
+
+    }
 }

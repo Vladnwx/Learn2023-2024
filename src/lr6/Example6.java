@@ -10,4 +10,8 @@ package lr6;
 и возвращается ссылка на эту копию.
  */
 public class Example6 {
+
+    public static void main(String[] args) {
+
+    }
 }

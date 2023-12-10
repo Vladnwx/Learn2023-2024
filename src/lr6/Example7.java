@@ -5,4 +5,8 @@ package lr6;
 на целочисленным массив, состоящий из кодов символов из массива- аргумента.
  */
 public class Example7 {
+
+    public static void main(String[] args) {
+
+    }
 }

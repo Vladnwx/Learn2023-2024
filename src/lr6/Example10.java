@@ -7,4 +7,8 @@ package lr6;
 значений среди аргументов, переданных методу.
  */
 public class Example10 {
+
+    public static void main(String[] args) {
+
+    }
 }

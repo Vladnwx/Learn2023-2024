@@ -7,4 +7,8 @@ package lr6;
 12 + 22 +32+…+n2=(n+l) (2n + 1)/6
  */
 public class Example5 {
+
+    public static void main(String[] args) {
+
+    }
 }

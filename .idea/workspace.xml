@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи №1">
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example2.java" afterDir="false" />
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="add psvm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,22 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00022" summary="lr2 example5 add solution">
-      <option name="closed" value="true" />
-      <created>1700930114749</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1700930114749</updated>
-    </task>
-    <task id="LOCAL-00023" summary="timus">
-      <option name="closed" value="true" />
-      <created>1700933071603</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1700933071603</updated>
     </task>
     <task id="LOCAL-00024" summary="timus">
       <option name="closed" value="true" />
@@ -522,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702191443043</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Решение задачи №2">
+      <option name="closed" value="true" />
+      <created>1702191881159</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1702191881159</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add psvm">
+      <option name="closed" value="true" />
+      <created>1702191982355</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1702191982355</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,8 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lr2 example5 add solution" />
-    <MESSAGE value="add lr3" />
     <MESSAGE value="timus" />
     <MESSAGE value="Решение задачи 1" />
     <MESSAGE value="Решение задачи 2" />
@@ -563,7 +562,9 @@
     <MESSAGE value="Добавил файлы задач" />
     <MESSAGE value="Добавил описание задач" />
     <MESSAGE value="Решение задачи №1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи №1" />
+    <MESSAGE value="Решение задачи №2" />
+    <MESSAGE value="add psvm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add psvm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

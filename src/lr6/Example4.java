@@ -11,7 +11,56 @@ package lr6;
  */
 public class Example4 {
 
+    public static class Factorial {
+        private  int n;
+        private int result;
+        boolean Chetnost =false;
+
+        private void Sum(){
+            if (n%2==0){
+                Chetnost = true;
+            }
+            else Chetnost=false;
+        }
+        private void Sum1(){
+            if (Chetnost==true){
+                for (int i=0; i<n;i++){
+                    if (i%2==0){
+                        result *= (n-i) ;
+                    } else continue;
+                }
+                result*=2;
+            }
+            else {
+                for (int i=0; i<n;i++){
+                    if (i%2!=0){
+                        result *= (n-i) ;
+                    } else continue;
+                }
+            }
+        }
+
+        public static Factorial SetFactorial(int n){
+            Factorial factorial = new Factorial();
+            return factorial;
+        }
+        public static void Print ()
+        {
+            System.out.println(Factorial.class.getSimpleName());
+            System.out.println("n= " + n);
+          //  System.out.println("n!!= " + result);
+
+        }
+
+    }
+
+
     public static void main(String[] args) {
+Factorial f1 = Factorial.SetFactorial(5);
+       // Factorial.SetFactorial(5);
+        Factorial.Print();
+      //  Factorial.SetFactorial(10);
+       // Factorial.Print();
 
     }
 }

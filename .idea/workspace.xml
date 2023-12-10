@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Добавил файлы задач">
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Добавил описание задач">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lr6/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,28 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Example1.executor": "Run",
-    "Application.Example2.executor": "Run",
-    "Application.Example3.executor": "Run",
-    "Application.Example4.executor": "Run",
-    "Application.Example5.executor": "Run",
-    "Application.Example6.executor": "Run",
-    "Application.Example7.executor": "Run",
-    "Application.Example8.executor": "Run",
-    "Application.Example9.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_2066",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Example1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_2066&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_2066" />
@@ -139,22 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00019" summary="lr2 example3 add solution">
-      <option name="closed" value="true" />
-      <created>1700926057011</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1700926057011</updated>
-    </task>
-    <task id="LOCAL-00020" summary="lr2 example4 add solution">
-      <option name="closed" value="true" />
-      <created>1700926350498</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1700926350498</updated>
     </task>
     <task id="LOCAL-00021" summary="lr2 example5 add solution">
       <option name="closed" value="true" />
@@ -532,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702053962457</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Добавил описание задач">
+      <option name="closed" value="true" />
+      <created>1702054541615</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1702054541615</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Добавил описание задач">
+      <option name="closed" value="true" />
+      <created>1702054718152</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1702054718152</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lr2 example3 add solution" />
     <MESSAGE value="lr2 example4 add solution" />
     <MESSAGE value="lr2 example5 add solution" />
     <MESSAGE value="add lr3" />
@@ -573,7 +563,8 @@
     <MESSAGE value="Решение" />
     <MESSAGE value="Оформил отчеты" />
     <MESSAGE value="Добавил файлы задач" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил файлы задач" />
+    <MESSAGE value="Добавил описание задач" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил описание задач" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

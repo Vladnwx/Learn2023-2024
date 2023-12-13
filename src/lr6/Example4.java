@@ -47,7 +47,7 @@ public class Example4 {
         public static void Print ()
         {
             System.out.println(Factorial.class.getSimpleName());
-            System.out.println("n= " + n);
+        //    System.out.println("n= " + n);
           //  System.out.println("n!!= " + result);
 
         }

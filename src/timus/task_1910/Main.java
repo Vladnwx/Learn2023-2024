@@ -27,19 +27,19 @@ for (int i=0; i<a; i++){
 arr[i] = in.nextInt();
 }
 
-int result =0, count =0;
+int sum=0, count=0;
 
-for (int i=1; i<a-1; i++)
+for (int i=0; i<a-2; i++)
 {
-int tmp = arr[i-1] + arr[i] + arr[i+1];
+int tmp = arr[i] + arr[i+1] + arr[i+2];
 
-if (tmp>result){
-result = tmp;
-count = i;
+if (tmp>sum){
+sum = tmp;
+count = i+2;
 }
 
 }
 
-System.out.println(result + " " + count);
+System.out.println(sum + " " + count);
     }
 }

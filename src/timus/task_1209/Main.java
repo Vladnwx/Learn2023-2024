@@ -50,17 +50,30 @@ public class Main {
         }
 
         for (int i=0; i<N; i++){
-            String s = "";
-            int c=0;
-            while (s.length()<arr[i]){
-                s+="1";
-                for (int j=0; j<c; j++){
-                    s+="0";
-                }
-                c++;
+
+            if (arr[i]>1){
+
+              int k=2;
+              while (k  <arr[i]){
+
+              }
+
+            } else { System.out.println(1 + " ");
+
             }
 
-            System.out.println(s.charAt(arr[i]-1) + " ");
+
+//            String s = "";
+//            int c=0;
+//            while (s.length()<arr[i]){
+//                s+="1";
+//                for (int j=0; j<c; j++){
+//                    s+="0";
+//                }
+//                c++;
+//            }
+//
+//            System.out.println(s.charAt(arr[i]-1) + " ");
         }
 
        // System.out.println(Arrays.toString(arr));

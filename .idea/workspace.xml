@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 1910">
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 1209">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1209/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1209/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1313/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1313/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,32 +52,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Example1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.timus.task_1001.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.timus.task_1100.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.timus.task_1209.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.timus.task_1910.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_2066&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Example1.executor": "Run",
+    "Application.Example2.executor": "Run",
+    "Application.Example3.executor": "Run",
+    "Application.Example4.executor": "Run",
+    "Application.Example5.executor": "Run",
+    "Application.Example6.executor": "Run",
+    "Application.Example7.executor": "Run",
+    "Application.Example8.executor": "Run",
+    "Application.Example9.executor": "Run",
+    "Application.timus.task_1001.Main.executor": "Run",
+    "Application.timus.task_1100.Main.executor": "Run",
+    "Application.timus.task_1209.Main.executor": "Run",
+    "Application.timus.task_1313.Main.executor": "Run",
+    "Application.timus.task_1910.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Learn2023-2024/src/timus/task_2066",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\Learn2023-2024\src\timus\task_2066" />
@@ -134,14 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00031" summary="timus">
-      <option name="closed" value="true" />
-      <created>1700984848682</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1700984848682</updated>
     </task>
     <task id="LOCAL-00032" summary="Решение задачи 1">
       <option name="closed" value="true" />
@@ -527,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702806037616</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Решение задачи 1209">
+      <option name="closed" value="true" />
+      <created>1704116414508</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1704116414509</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Решение задачи 2" />
     <MESSAGE value="Добавление условий задач" />
     <MESSAGE value="Промежуточное решение" />
     <MESSAGE value="Решение задачи 5" />
@@ -568,7 +568,8 @@
     <MESSAGE value="Решение задачи №4" />
     <MESSAGE value="Решение задачи 1001" />
     <MESSAGE value="Решение задачи 1910" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 1910" />
+    <MESSAGE value="Решение задачи 1209" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 1209" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

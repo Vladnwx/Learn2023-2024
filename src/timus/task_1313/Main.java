@@ -38,5 +38,31 @@ public class Main {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+
+        int N=in.nextInt();
+        int[][] arr = new int[N][N];
+        for (int i=0; i<N; i++){
+            for (int j=0; j<N;j++){
+                arr[i][j] = in.nextInt();
+            }
+        }
+
+//        for (int i=0; i<N; i++){
+//            for (int j=0; j<N;j++){
+//                System.out.print(arr[i][j] + " ");
+//            }
+//        }
+      //  System.out.println();
+        for (int i=0; i<N; i++){
+            for (int j=i; j>=0;j--){
+                    System.out.print(arr[j][i-j] + " ");
+
+            }
+        }
+        for (int i=1; i<N; i++){
+            for (int j=N-1; j>=i; j--){
+                System.out.print(arr[j][N-j+i-1] + " ");
+            }
+        }
     }
 }

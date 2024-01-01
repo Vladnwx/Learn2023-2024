@@ -44,38 +44,17 @@ public class Main {
             throw new RuntimeException(e);
         }
         int N=in.nextInt();
-        int[] arr = new int[N];
+        long[] arr = new long[N];
         for (int i=0; i<N; i++){
-            arr[i]=in.nextInt();
+            arr[i]= in.nextLong()-1;
+            long temp = (long) Math.sqrt(8*arr[i]+1);
+            arr[i]= temp*temp == 8*arr[i]+1 ? 1 :0;
         }
 
-        for (int i=0; i<N; i++){
+      //  System.out.println(Arrays.toString(arr));
 
-            if (arr[i]>1){
-
-              int k=2;
-              while (k  <arr[i]){
-
-              }
-
-            } else { System.out.println(1 + " ");
-
-            }
-
-
-//            String s = "";
-//            int c=0;
-//            while (s.length()<arr[i]){
-//                s+="1";
-//                for (int j=0; j<c; j++){
-//                    s+="0";
-//                }
-//                c++;
-//            }
-//
-//            System.out.println(s.charAt(arr[i]-1) + " ");
+        for (long l : arr) {
+            System.out.print(l + " ");
         }
-
-       // System.out.println(Arrays.toString(arr));
     }
 }

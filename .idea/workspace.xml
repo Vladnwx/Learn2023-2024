@@ -7,8 +7,6 @@
     <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 1910">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timus/task_1209/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1209/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1225/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1225/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1313/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1313/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,22 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add lr3">
-      <option name="closed" value="true" />
-      <created>1700980140936</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1700980140936</updated>
-    </task>
-    <task id="LOCAL-00030" summary="add lr3">
-      <option name="closed" value="true" />
-      <created>1700980197593</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1700980197593</updated>
     </task>
     <task id="LOCAL-00031" summary="timus">
       <option name="closed" value="true" />
@@ -529,7 +511,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702725436224</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Решение задачи 1910">
+      <option name="closed" value="true" />
+      <created>1702740349753</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1702740349754</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Решение задачи 1910">
+      <option name="closed" value="true" />
+      <created>1702806037616</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1702806037616</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,11 +577,6 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="112" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timus/task_1209/Main.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 1209">
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 1313">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timus/task_1313/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1313/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1225/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1225/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timus/task_1225/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/timus/task_1225/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,7 @@
     "Application.timus.task_1001.Main.executor": "Run",
     "Application.timus.task_1100.Main.executor": "Run",
     "Application.timus.task_1209.Main.executor": "Run",
+    "Application.timus.task_1225.Main.executor": "Run",
     "Application.timus.task_1313.Main.executor": "Run",
     "Application.timus.task_1910.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -135,14 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Решение задачи 1">
-      <option name="closed" value="true" />
-      <created>1701353630384</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1701353630384</updated>
     </task>
     <task id="LOCAL-00033" summary="Решение задачи 2">
       <option name="closed" value="true" />
@@ -528,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704116414509</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Решение задачи 1313">
+      <option name="closed" value="true" />
+      <created>1704119533397</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1704119533397</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +546,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Добавление условий задач" />
     <MESSAGE value="Промежуточное решение" />
     <MESSAGE value="Решение задачи 5" />
     <MESSAGE value="Решение задачи 6" />
@@ -569,7 +570,8 @@
     <MESSAGE value="Решение задачи 1001" />
     <MESSAGE value="Решение задачи 1910" />
     <MESSAGE value="Решение задачи 1209" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 1209" />
+    <MESSAGE value="Решение задачи 1313" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 1313" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

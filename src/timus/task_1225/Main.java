@@ -23,10 +23,10 @@ M — количество способов украсить витрину.
 исходные данные	результат
 1
 2
-2
+3
 
 2
-3
+2
 4
  */
 
@@ -37,10 +37,21 @@ import java.util.Scanner;
 
 
 public class Main {
+    public static void FlagVariant1(int N){
+      N=N-2;
+        long result=2;
+        long i=2; long j=2;
+        while (N>0){
+           result=i+j;
+           i=j;
+           j=result;
+           N--;
+       }
+        System.out.println(result);
+    }
     public static void main(String[] args) {
         String inputFileName = "src/timus/task_1225/input.txt";
         boolean oj = System.getProperty("ONLINE_JUDGE") != null;
-
         Scanner in =
                 null;
         try {
@@ -49,44 +60,7 @@ public class Main {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-
-        int result=0;
-        int N = in.nextInt();
-        char[] arr = new char[N];
-        int max = (int) Math.pow(3, N);
-
-        public void fiiWR
-
-        if (N>2) {
-               for (int j = 0; j < N; j+= 2) {
-                   arr[j] = 'w';
-                   if (j < N - 1) {
-                       arr[j + 1] = 'r';
-                       result++;
-                   }
-               }
-               for (int j = 0; j < N; j += 3) {
-                   arr[j] = 'r';
-                   if (j<N-1) {arr[j + 1] = 'b';}
-                   if (j<N-2) { arr[j + 2] = 'w';
-                       result++;}
-               }
-
-                   for (int j=0; j<N;j+=3){
-                       arr[j]='w';
-                       if (j<N-1) {arr[j+1]='b';}
-                       if (j<N-2) { arr[j+2]='r';
-                           result++;}
-                   }
-               for (int j = 0; j < N; j += 2) {
-                   arr[j] = 'r';
-                   if (j<N-1) {arr[j + 1] = 'w';
-                       result++;}
-               }
-
-
-               }
-           else result=2;
-        System.out.println(result);
+       int N = in.nextInt();
+        FlagVariant1(N);
     }
 }

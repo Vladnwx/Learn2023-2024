@@ -8,7 +8,7 @@ package lr6;
  */
 public class Example2 {
 
-    public static class CouterOut{
+    public static class CounterOut{
         private static int i=0;
         public static void printToConsole(){
             System.out.println("Текущее значение счетчика вывода: " + i);
@@ -17,16 +17,9 @@ public class Example2 {
     }
     public static void main(String[] args) {
 
-        CouterOut.printToConsole();
-
-        CouterOut.printToConsole();
-
-        CouterOut.printToConsole();
-
-        CouterOut.printToConsole();
-
-        CouterOut.printToConsole();
-
+        for (int i=0; i<5; i++){
+            CounterOut.printToConsole();
+        }
 
     }
 }

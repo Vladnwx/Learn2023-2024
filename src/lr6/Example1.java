@@ -57,10 +57,16 @@ public class Example1 {
         textWrapper2.getAll();
 
         System.out.println("Передача массива символов");
-        char [] arrchar = {'Э', 'Т','О',' ','М','А','С','С','И','В',' ','С','И','М','В','О','Л','О','В'};
+        char [] arrchar1 = {'Э', 'Т','О',' ','М','А','С','С','И','В',' ','С','И','М','В','О','Л','О','В'};
         TextWrapper textWrapper3 = new TextWrapper();
-        textWrapper3.setTextWrapper(arrchar);
+        textWrapper3.setTextWrapper(arrchar1);
         textWrapper3.getAll();
+
+        System.out.println("Передача одного символа в массиве");
+        char [] arrchar2 = {'C'};
+        TextWrapper textWrapper4 = new TextWrapper();
+        textWrapper4.setTextWrapper(arrchar2);
+        textWrapper4.getAll();
 
     }
 }

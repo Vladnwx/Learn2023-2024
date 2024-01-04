@@ -1,5 +1,7 @@
 package lr6;
 
+import java.util.Random;
+
 /*
 Напишите программу, в которой описан статический метод для
 вычисления двойного факториала числа, переданного аргументом методу.
@@ -12,55 +14,74 @@ package lr6;
 public class Example4 {
 
     public static class Factorial {
-        private  int n;
-        private int result;
-        boolean Chetnost =false;
+        private static int n;
+        private static int result;
+        static boolean Chetnost =false;
 
-        private void Sum(){
+        private static void CheckChetnost(int n){
             if (n%2==0){
                 Chetnost = true;
             }
             else Chetnost=false;
         }
-        private void Sum1(){
-            if (Chetnost==true){
-                for (int i=0; i<n;i++){
-                    if (i%2==0){
-                        result *= (n-i) ;
-                    } else continue;
-                }
-                result*=2;
+
+        public static void SetFactorial(int c){
+           n = c;
+            CheckChetnost(n);
+            ResultFactorial();
+        }
+
+        public static void ResultFactorial(){
+           if (Chetnost){
+               ResultFactorialChetniy();
+           }
+           else ResultFactorialNEChetniy();
+        }
+
+        public static void ResultFactorialChetniy(){
+            result=1;
+            int c=0;
+            while(n-c>=2){
+                result = result*(n-c);
+                c+=2;
             }
-            else {
-                for (int i=0; i<n;i++){
-                    if (i%2!=0){
-                        result *= (n-i) ;
-                    } else continue;
-                }
+        }
+        public static void ResultFactorialNEChetniy(){
+            result=1;
+            int c=0;
+            while(n-c>=1){
+                result = result*(n-c);
+                c+=2;
             }
         }
 
-        public static Factorial SetFactorial(int n){
-            Factorial factorial = new Factorial();
-            return factorial;
-        }
+
         public static void Print ()
         {
-            System.out.println(Factorial.class.getSimpleName());
-        //    System.out.println("n= " + n);
-          //  System.out.println("n!!= " + result);
-
+            System.out.println("Четность - " + Chetnost);
+            System.out.println(n + "!! = " + result);
         }
 
     }
 
-
     public static void main(String[] args) {
-Factorial f1 = Factorial.SetFactorial(5);
-       // Factorial.SetFactorial(5);
+
+        Random random = new Random();
+        int r = random.nextInt(10,15);
+        System.out.println("Количество вычисляемых факториалов = " + r);
+        Factorial[] factorials = new Factorial[r];
+
+        for (int i=0; i<r; i++){
+            int c = random.nextInt(5,10);
+            Factorial.SetFactorial(c);
+            Factorial.Print();
+        }
+
+        Factorial.SetFactorial(6);
         Factorial.Print();
-      //  Factorial.SetFactorial(10);
-       // Factorial.Print();
+        Factorial.SetFactorial(5);
+        Factorial.Print();
 
     }
-}
+
+    }

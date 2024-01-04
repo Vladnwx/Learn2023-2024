@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Отчет по задачам timus">
+    <list default="true" id="9d1b5ffb-f976-4822-9d08-e6f1699e5f57" name="Changes" comment="Решение задачи 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/Example4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr6/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР6.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/РИЗ-130916у Савельев В.Н. Отчет о выполнении ЛР6.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr6/Example6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr6/Example6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
     "Application.Example1.executor": "Run",
     "Application.Example2.executor": "Run",
     "Application.Example3.executor": "Run",
-    "Application.Example4.executor": "Debug",
+    "Application.Example4.executor": "Run",
     "Application.Example5.executor": "Run",
     "Application.Example6.executor": "Run",
     "Application.Example7.executor": "Run",
@@ -140,22 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699699671700</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Добавление условий задач">
-      <option name="closed" value="true" />
-      <created>1701398488710</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1701398488710</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Решение задачи №3">
-      <option name="closed" value="true" />
-      <created>1701399319784</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1701399319784</updated>
     </task>
     <task id="LOCAL-00038" summary="Решение задачи №4">
       <option name="closed" value="true" />
@@ -533,7 +513,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704386690220</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Отчет по задачи 4 и косметические правки в остальных">
+      <option name="closed" value="true" />
+      <created>1704391210237</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1704391210237</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Решение задачи 5">
+      <option name="closed" value="true" />
+      <created>1704392526635</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1704392526635</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,8 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Решение задачи 6" />
-    <MESSAGE value="Решение задачи 7" />
     <MESSAGE value="Решение задачи 8" />
     <MESSAGE value="Решение задачи 9" />
     <MESSAGE value="Решение задачи 10" />
@@ -574,7 +568,9 @@
     <MESSAGE value="Решение задачи 1313" />
     <MESSAGE value="Решение задачи 1225" />
     <MESSAGE value="Отчет по задачам timus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отчет по задачам timus" />
+    <MESSAGE value="Отчет по задачи 4 и косметические правки в остальных" />
+    <MESSAGE value="Решение задачи 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,20 +579,6 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="112" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lr6/Example4.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/lr6/Example4.java</url>
-          <line>40</line>
-          <properties class="lr6.Example4.Factorial" method="ResultFactorialChetniy">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

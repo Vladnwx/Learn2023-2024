@@ -5,23 +5,29 @@ package lr6;
 элементы массива попарно меняются местами: первый — с последним,
 второй — с предпоследним и так далее.
  */
-import java.util.Random;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 public class Example9 {
     
-     static boolean CHEATCODE = true;
+     static boolean CHEATCODE = false;
   
   public static void reverseArray(char[] arrChar){
    if (CHEATCODE){
-       
-       Collections.reverse(Arrays.asList(arrChar));
-       
+
+       List<Character> list = new ArrayList<Character>();
+       for (char c: arrChar){
+           list.add(c);
+       }
+      Collections.reverse(list);
+       System.out.println("Массив символов перевернутый : \n" + list);
    } 
    else {
-       
-       
+       for (int start=0, finish =arrChar.length-1; start<finish; start++, finish--){
+           char tmp = arrChar[start];
+           arrChar[start] = arrChar[finish];
+           arrChar[finish] = tmp;
+       }
+       System.out.println("Массив символов перевернутый : \n" + Arrays.toString(arrChar));
    }
 
   }
@@ -29,17 +35,16 @@ public class Example9 {
   public static void main(String[] args) {
       
 Random random = new Random();
-int r = random.nextInt(50);
+int r = random.nextInt(10, 50);
 
 char[] arrChar = new char[r];
 
 for (int i =0; i<arrChar.length; i++){
-    arrChar[i] = (char) random.nextInt(1000);
+    arrChar[i] = (char) random.nextInt(22, 255);
 }
 System.out.println("Массив символов: \n" + Arrays.toString(arrChar));
-//reverseArray(arrChar);
- Collections.reverse(Arrays.asList(arrChar));
-System.out.println("Массив символов перевернутый : \n" + Arrays.toString(arrChar));
+reverseArray(arrChar);
+
   
   }
 }

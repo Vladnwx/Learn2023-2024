@@ -30,7 +30,7 @@ public class Example7 {
   char[] arrChar = new char[r];
   
   for (int i=0; i<r; i++){
-      arrChar[i] = (char) random.nextInt(50);
+      arrChar[i] = (char) random.nextInt(22 , 255);
   }
   
   System.out.println("Размер массива = " + r);
